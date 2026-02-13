@@ -9,6 +9,7 @@ If you want to create a basic map of your study area using open-source tools and
 - identify packages and basic functions for mapping in R
 - import and generate geospatial data
 - plot your data on a map for use in a research paper or poster.
+
 **Prerequisites:** Attendees must have a working version of R and RStudio to participate in this workshop. Prior experience in R is required. While we will cover some basics, it is expected that participants know how to install and load packages, define variables, and create and run functions in RStudio. 
 
 > **Who is this for?** Beginners who want a fast, hands-on understanding of R mapping basics.
