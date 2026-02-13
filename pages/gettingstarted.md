@@ -6,19 +6,25 @@ nav_order: 2
 
 # Getting Started
 
-## Option 1: No tools — GitHub in your browser
-- Create or upload files directly on GitHub
-- Commit with a message
-- View history and diffs
+## Essential Packages
+Please use install.packages() or the Packages window in RStudio to download these. 
+While tmap will be our package of choice for map making, we need some other packages to help use import and parse through our data.
 
-## Option 2: GitHub Desktop (recommended for beginners)
-- Download: https://desktop.github.com/
-- Sign in → Clone your repo → Add or edit files locally
-- Commit (with a message) → Push
 
-## Option 3: VS Code (with built-in Git)
-- Open your folder in VS Code
-- Use the **Source Control** panel to stage, commit, and push
-
-> You can switch between approaches anytime. Your **Git history** stays consistent.
-``
+```r
+```{r}
+#| label: Load_Packages
+library(sf)
+library(terra)
+library(sp)
+library(raster)
+library(tmap)
+#library(leaflet)
+library(dplyr)
+```
+### Example Install:
+```r
+```{r}
+#| label: Install_Packages
+install.packages("terra")
+```
