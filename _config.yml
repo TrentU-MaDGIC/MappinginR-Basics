@@ -1,9 +1,15 @@
 title: "Mapping in R: Basics"
-description: Learn the basics of how to map in R
-theme: just-the-docs
+description: "Learn the basics of how to map in R"
+
+# Use remote theme
+remote_theme: just-the-docs/just-the-docs
+
 color_scheme: light
-# If you want search:
 search_enabled: true
+
+# Required for remote themes
+plugins:
+  - jekyll-remote-theme
 
 # Build settings
 url: "https://TrentU-MaDGIC.github.io"
