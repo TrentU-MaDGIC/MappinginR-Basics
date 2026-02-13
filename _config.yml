@@ -1,0 +1,10 @@
+title: Mapping in R: Basics
+description: Learn the basics of how to map in R
+theme: just-the-docs
+color_scheme: light
+# If you want search:
+search_enabled: true
+
+# Build settings
+url: "https://TrentU-MaDGIC.github.io"
+baseurl: "/MappinginR-Basics"
