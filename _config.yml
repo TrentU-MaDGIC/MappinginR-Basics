@@ -30,3 +30,7 @@ kramdown:
 sass:
   load_paths:
     - assets/css
+include:
+  - assets/css/custom.css
+  - assets/js/code-labels.js
+
