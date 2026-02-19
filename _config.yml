@@ -3,6 +3,8 @@ description: "Learn the basics of how to map in R"
 
 # Use remote theme
 remote_theme: just-the-docs/just-the-docs
+include:
+  - assets/css/custom.css
 
 color_scheme: light
 search_enabled: true
@@ -25,3 +27,6 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
+sass:
+  load_paths:
+    - assets/css
