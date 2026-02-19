@@ -14,3 +14,14 @@ plugins:
 # Build settings
 url: "https://TrentU-MaDGIC.github.io"
 baseurl: "/MappinginR-Basics"
+
+#Markdown
+rouge:
+  guess_lang: false
+  default_lang: r
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+      start_line: 1
