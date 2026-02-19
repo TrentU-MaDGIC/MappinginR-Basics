@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Filtering?
+title: Filtering
 nav_order: 4
 ---
 
