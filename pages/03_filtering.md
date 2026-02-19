@@ -70,3 +70,5 @@ Why is this all important? Each CRS is only accurate to a certain degree and may
 
 **TL;DR:** Geospatial data have a coordinate reference system they use to place data on the Earth. Global data often use geographic coordinate systems like WGS84 with units of degrees (minutes, seconds) that exist between -180 and +180 and often have several values after the decimal (e.g. 44.4845). Local data will often use projected coordinate systems like NAD83 UTM Zone 17N and have units of metres that are often in the hundreds of thousands to millions with no or few points after the decimal. 
 Please be aware of your projections!
+
+Finally we can start map making!
