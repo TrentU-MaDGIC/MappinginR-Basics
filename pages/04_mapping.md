@@ -51,9 +51,9 @@ tm_shape(trent_s)+
 ```
 ![Trent Raster](../assets/images/trent_raster)
 
-While you can specify multiple tm_shapes() in a single map, maps can be stored as objects with tmap. This would allow you to 'save' a particular map view for later display or as part of another map or figure. 
-When you add layers together, you add them on top of the previous layer (so the drawing order goes: tm_shape(bottom) + tm_shape(top). Remember this when you are adding multiple layers as overlapping layers can hide data!
-The first tm_shape() dictates the area that the map will focus on (and zoom and pan to).
+While you can specify multiple `tm_shapes()` in a single map, maps can be stored as objects with tmap. This would allow you to 'save' a particular map view for later display or as part of another map or figure. 
+When you add layers together, you add them on top of the previous layer (so the drawing order goes: `tm_shape(bottom) + tm_shape(top)`. Remember this when you are adding multiple layers as overlapping layers can hide data!
+The first `tm_shape()` dictates the area that the map will focus on (and zoom and pan to).
 
 ```r
 Map1 = tm_shape(Ptbo)+tm_polygons()
