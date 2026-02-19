@@ -9,3 +9,16 @@
   border-bottom-left-radius: 4px;
   color: #333;
 }
+.code-lang-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #eee;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+  border-bottom-left-radius: 4px;
+  color: #333;
+}
+.highlight {
+  position: relative;
+}
