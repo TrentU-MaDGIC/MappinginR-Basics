@@ -3,8 +3,6 @@ description: "Learn the basics of how to map in R"
 
 # Use remote theme
 remote_theme: just-the-docs/just-the-docs
-include:
-  - assets/css/custom.css
 
 color_scheme: light
 search_enabled: true
@@ -16,21 +14,3 @@ plugins:
 # Build settings
 url: "https://TrentU-MaDGIC.github.io"
 baseurl: "/MappinginR-Basics"
-
-#Markdown
-rouge:
-  guess_lang: false
-  default_lang: r
-
-kramdown:
-  syntax_highlighter_opts:
-    block:
-      line_numbers: false
-      start_line: 1
-sass:
-  load_paths:
-    - assets/css
-include:
-  - assets/css/custom.css
-  - assets/js/code-labels.js
-
