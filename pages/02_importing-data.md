@@ -25,7 +25,13 @@ parking = read_sf('Trent_newParking.shp')
 parking
 #simple map with plot()
 plot(parking)
+```
+### plot(parking)
+You should now see the following plot:
 
+![parking plot](../assets/images/plot-parking)
+
+```r
 #Can query/filter before loading data, so you do not import too much data
 bounds = ('MuniBoundsLS.gpkg')
 #This is too much to plot at once
