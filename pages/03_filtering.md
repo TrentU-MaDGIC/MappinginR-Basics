@@ -6,7 +6,7 @@ nav_order: 4
 
 # Filtering through shapefiles and gpkg
 
-Often you will find data that contains multitudes of products, but you may only want a particular part of it. We can filter through this data directly with geopackages and read_sf(), or with additional packages like dplyr for shapefiles and other data types. 
+Often you will find data that contains multitudes of products, but you may only want a particular part of it. We can filter through this data directly with geopackages and `read_sf()`, or with additional packages like dplyr for shapefiles and other data types. 
 Spatial data should look similar to other tables of data you have encountered, they just have some spatial or geographic identifiers as part of the data. When you look inside a gpkg or shp, you will see rows and columns of data that you can query. Since they also have a spatial component, you can also query and compare by geometry.
 ```r
 #You can also filter by geometry, with WKT data
