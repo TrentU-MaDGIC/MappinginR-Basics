@@ -14,11 +14,3 @@ plugins:
 # Build settings
 url: "https://TrentU-MaDGIC.github.io"
 baseurl: "/MappinginR-Basics"
-
-just_the_docs:
-  aux_nav:
-    "Project Links":
-      - name: "GitHub Repository"
-        url: "https://github.com/TrentU-MaDGIC/MappinginR-Basics"
-      - name: "MaDGIC GitHub.io Home"
-        url: "https://trentu-madgic.github.io/MaDGIC.github.io/"
